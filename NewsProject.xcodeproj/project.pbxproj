@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DB2D34329B6099200451C37 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2D34229B6099200451C37 /* NewsCell.swift */; };
+		2DB2D34629B60BC900451C37 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2D34529B60BC900451C37 /* News.swift */; };
+		2DB2D34829B611AA00451C37 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2D34729B611AA00451C37 /* WebService.swift */; };
 		2DEC3E3B299CB9E00001D0A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC3E3A299CB9E00001D0A6 /* AppDelegate.swift */; };
 		2DEC3E3D299CB9E00001D0A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC3E3C299CB9E00001D0A6 /* SceneDelegate.swift */; };
 		2DEC3E3F299CB9E00001D0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC3E3E299CB9E00001D0A6 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DB2D34229B6099200451C37 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		2DB2D34529B60BC900451C37 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		2DB2D34729B611AA00451C37 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		2DEC3E37299CB9E00001D0A6 /* NewsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEC3E3A299CB9E00001D0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DEC3E3C299CB9E00001D0A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DB2D34429B60BB300451C37 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2DB2D34729B611AA00451C37 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		2DEC3E2E299CB9E00001D0A6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +70,42 @@
 		2DEC3E39299CB9E00001D0A6 /* NewsProject */ = {
 			isa = PBXGroup;
 			children = (
-				2DEC3E3A299CB9E00001D0A6 /* AppDelegate.swift */,
-				2DEC3E3C299CB9E00001D0A6 /* SceneDelegate.swift */,
-				2DEC3E3E299CB9E00001D0A6 /* ViewController.swift */,
+				2DB2D34429B60BB300451C37 /* Service */,
+				2DEC3E50299CBA090001D0A6 /* ViewModel */,
+				2DEC3E4F299CB9FB0001D0A6 /* Model */,
+				2DEC3E4E299CB9F00001D0A6 /* View */,
 				2DEC3E40299CB9E00001D0A6 /* Main.storyboard */,
 				2DEC3E43299CB9E10001D0A6 /* Assets.xcassets */,
 				2DEC3E45299CB9E10001D0A6 /* LaunchScreen.storyboard */,
 				2DEC3E48299CB9E10001D0A6 /* Info.plist */,
 			);
 			path = NewsProject;
+			sourceTree = "<group>";
+		};
+		2DEC3E4E299CB9F00001D0A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC3E3A299CB9E00001D0A6 /* AppDelegate.swift */,
+				2DEC3E3C299CB9E00001D0A6 /* SceneDelegate.swift */,
+				2DEC3E3E299CB9E00001D0A6 /* ViewController.swift */,
+				2DB2D34229B6099200451C37 /* NewsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DEC3E4F299CB9FB0001D0A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DB2D34529B60BC900451C37 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DEC3E50299CBA090001D0A6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB2D34829B611AA00451C37 /* WebService.swift in Sources */,
 				2DEC3E3F299CB9E00001D0A6 /* ViewController.swift in Sources */,
 				2DEC3E3B299CB9E00001D0A6 /* AppDelegate.swift in Sources */,
+				2DB2D34329B6099200451C37 /* NewsCell.swift in Sources */,
+				2DB2D34629B60BC900451C37 /* News.swift in Sources */,
 				2DEC3E3D299CB9E00001D0A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

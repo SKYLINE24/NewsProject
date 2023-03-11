@@ -10,6 +10,7 @@
 		2DB2D34329B6099200451C37 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2D34229B6099200451C37 /* NewsCell.swift */; };
 		2DB2D34629B60BC900451C37 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2D34529B60BC900451C37 /* News.swift */; };
 		2DB2D34829B611AA00451C37 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB2D34729B611AA00451C37 /* WebService.swift */; };
+		2DBB91B429BB6EBB00C0B09E /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB91B329BB6EBB00C0B09E /* NewsViewModel.swift */; };
 		2DEC3E3B299CB9E00001D0A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC3E3A299CB9E00001D0A6 /* AppDelegate.swift */; };
 		2DEC3E3D299CB9E00001D0A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC3E3C299CB9E00001D0A6 /* SceneDelegate.swift */; };
 		2DEC3E3F299CB9E00001D0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC3E3E299CB9E00001D0A6 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		2DB2D34229B6099200451C37 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		2DB2D34529B60BC900451C37 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		2DB2D34729B611AA00451C37 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		2DBB91B329BB6EBB00C0B09E /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		2DEC3E37299CB9E00001D0A6 /* NewsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEC3E3A299CB9E00001D0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DEC3E3C299CB9E00001D0A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		2DEC3E50299CBA090001D0A6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2DBB91B329BB6EBB00C0B09E /* NewsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				2DEC3E3F299CB9E00001D0A6 /* ViewController.swift in Sources */,
 				2DEC3E3B299CB9E00001D0A6 /* AppDelegate.swift in Sources */,
 				2DB2D34329B6099200451C37 /* NewsCell.swift in Sources */,
+				2DBB91B429BB6EBB00C0B09E /* NewsViewModel.swift in Sources */,
 				2DB2D34629B60BC900451C37 /* News.swift in Sources */,
 				2DEC3E3D299CB9E00001D0A6 /* SceneDelegate.swift in Sources */,
 			);

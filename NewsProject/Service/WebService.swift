@@ -22,5 +22,6 @@ class Webservice{
             }
         }.resume()
         //bütün işlemleri başlatmak için resume kullanıoruz
+        //try dene kardeşim diyoruz :)
     }
 }

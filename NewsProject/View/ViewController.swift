@@ -18,8 +18,12 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         
         tableView.delegate = self
         tableView.dataSource = self
+        //label boyutlarını otomatikleştirmek için aşşağıdaki işlemleri gerçekleştiriyoruz ve hightForRowAt fonksiyonunu çağırıyoruz
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = UITableView.automaticDimension
         
         veriAl()
+        
         
     }
     
@@ -50,6 +54,13 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         return cell
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension//boyutların otomtik belirleneceğini söyledik
+        //bunu yapmak yeterli olmayacak ve haber kısmında ki içeriği gösteren labelda da ayarlama yapmamız gerekiyor
+        //ayarlanacak label mainde seçildikten sonra lines 0 olacak şekilde ayarlanıyor ve minimum yükseklik vermek için constrainslerden
+        //yükseklik verdikten sonra sağ tarafta constraints i editleyebileceğimiz kısıma gelip edit butonuna basarak constantı >= yapıyoruz
+        //bu işlemle minimum misal 34 ise daha da büyük olabilir diyoruz
+    }
 
 }
 
